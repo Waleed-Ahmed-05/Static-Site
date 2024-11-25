@@ -1,12 +1,13 @@
 {
-  "name": "lab_09",
+  "name": "next-app",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "next build && next export",
     "dev": "next dev",
-    "deploy": "next build && next export && gh-pages -d out"
+    "build": "next build",
+    "start": "next start",
+    "deploy": "next build && gh-pages -d out"
   },
   "keywords": [],
   "author": "",
