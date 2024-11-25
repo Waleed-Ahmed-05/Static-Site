@@ -9,7 +9,7 @@ export default function Home() {
  <meta property="og:description" content="This is a sample static site using Next.js." />
  </Head>
  <h1>Welcome to My Static Site</h1>
- <img src="../1.jpg" alt="LP-Gangster" loading="lazy" />
+ <img src="1.jpg" alt="LP-Gangster" loading="lazy" />
  </>
  );
 }
