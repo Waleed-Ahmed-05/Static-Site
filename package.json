@@ -1,23 +1,26 @@
 {
-  "name": "next-app",
+  "name": "lab_09",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "deploy": "next build && gh-pages -d out"
+    "build": "next build && next export",
+    "deploy": "next build && next export && gh-pages -d out"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "gatsby-plugin-react-helmet": "^6.14.0",
+    "gatsby-source-filesystem": "^5.14.0",
+    "gatsby-transformer-remark": "^6.14.0",
     "gray-matter": "^4.0.3",
     "next": "^15.0.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-helmet": "^6.1.0",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1"
   },
